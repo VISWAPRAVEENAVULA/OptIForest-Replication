@@ -1,15 +1,13 @@
-# Data
+# 📂 Data
 
-This folder contains data or links to external datasets used in the replication and extension tasks.
+This folder stores datasets used for replicating and extending the **OptIForest** experiment.
 
-**Datasets:**
-1. **KDDCup99 Dataset** — original dataset used in the OptIForest paper.
-   - URL: http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html
+## 1. Credit Card Fraud Detection Dataset (External)
+- Source: [Kaggle – Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+- Description: Transactions made by European cardholders in September 2013.
+- Size: 284,807 records, 30 features (28 PCA + Time + Amount)
+- Labels: 0 = normal, 1 = fraud
+- Usage: Download `creditcard.csv` and place it in this folder before running:
+  ```bash
+  python scripts/run_optiforest.py --kind creditcard
 
-2. **Credit Card Fraud Detection Dataset** — new dataset extension for imbalanced classification.
-   - URL: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
-
-3. **Synthetic Dataset** — generated dataset for controlled anomaly experiments.
-
-> ⚠️ Due to size and confidentiality constraints, raw data files are not uploaded here.  
-> Instead, include scripts or links for downloading and preprocessing the data.
