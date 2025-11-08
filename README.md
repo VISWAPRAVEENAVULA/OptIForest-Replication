@@ -42,5 +42,4 @@ The output metrics (AUC: 0.89, Precision: 0.55, Recall: 0.57, F1-score: 0.56) cl
 
 ---
 
-##  Repository Structure
 
